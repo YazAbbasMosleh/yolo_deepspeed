@@ -1,0 +1,11 @@
+{
+    "fp16": {
+        "enabled": true,
+        "auto_cast": true
+    },
+    "zero_optimization": {
+        "stage": 0
+    },
+    "train_micro_batch_size_per_gpu": 1,
+    "initial_scale_power": 16
+}

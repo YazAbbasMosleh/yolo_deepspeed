@@ -1,0 +1,21 @@
+{
+    "fp16": {
+        "enabled": false
+    },
+    "zero_optimization": {
+        "stage": 0
+    },
+    "train_micro_batch_size_per_gpu": 1,
+    "train_batch_size": 1,
+    "optimizer": {
+        "type": "Adam",
+        "params": {
+            "lr": 0.001
+        }
+    },
+    "gradient_clipping": 0.0,
+    "zero_allow_untested_optimizer": true
+}
+
+
+
